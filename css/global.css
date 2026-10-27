@@ -40,3 +40,14 @@ section#image{
         object-fit: cover;
     }
 }
+
+@media screen and (max-width: 630px){
+    main{
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+    }
+
+    section{
+        height: 100%;
+    }
+}
