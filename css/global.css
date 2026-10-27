@@ -3,8 +3,40 @@
     padding: 0;
     border: 0;
     box-sizing: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
-    background: pink;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%
+}
+
+section{
+    width: 100%;
+    display: flex;
+}
+
+section#text{
+    background-color: rgba(20,20,20);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#image{
+    display: flex;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
